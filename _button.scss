@@ -1,0 +1,29 @@
+.btn
+{
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+
+  &:hover
+  {
+    opacity: 0.9;
+    transform: scale(90%);
+    transition: 0.5s;
+  }
+}
+
+.btn-primary
+{
+  @extend .btn;
+
+  background-color: $secondary-color;
+  
+}
+.btn-secondary
+{
+  @extend .btn;
+
+  background-color: $secondary-color;
+}

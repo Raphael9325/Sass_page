@@ -1,0 +1,13 @@
+.container
+{
+  margin: auto;
+  width: 90%;
+  max-width: 1100px;
+}
+
+ul, a
+{
+  list-style: none;
+  text-decoration: none;
+  color: set_color($main-color);
+}

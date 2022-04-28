@@ -1,0 +1,161 @@
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1100px;
+}
+
+ul, a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn, .btn-primary, .btn-secondary {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover, .btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(90%);
+          transform: scale(90%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-primary {
+  background-color: coral;
+}
+
+.btn-secondary {
+  background-color: coral;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  padding: 20px 0;
+  height: 50px;
+}
+
+.navbar h2 {
+  color: coral;
+}
+
+.navbar li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  background-color: coral;
+  padding: 3px 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-1 {
+  width: 60%;
+}
+
+.main-2 {
+  background-color: coral;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-2 .login-here {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-2 form input {
+  display: block;
+}
+
+.main-2 form input[type="text"] {
+  outline: none;
+  border: none;
+  background-color: coral;
+  border-bottom: 1px solid #333;
+}
+
+.main-2 form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

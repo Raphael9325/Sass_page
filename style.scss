@@ -1,0 +1,92 @@
+@import '_config.scss';
+@import '_utilities.scss';
+@import '_button.scss';
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+  @include set_bg_text_color($main-color);
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 20px 0;
+  height: 50px;
+
+  h2
+  {
+    color: $secondary-color;
+  }
+  
+  li
+  {
+    display: inline-flex;
+    margin-right: 20px;
+  }
+
+  a:hover
+  {
+    background-color: $secondary-color;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+}
+
+.main
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-1
+  {
+    width: 60%;
+  }
+
+  &-2
+  {
+    background-color: $secondary-color;
+    padding: 20px;
+    border-radius: 10px;
+
+    .login-here
+    {
+      color: $primary-color;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    form input
+    {
+      display: block;
+    }
+
+    form input[type="text"]
+    {
+      outline: none;
+      border: none;
+      background-color: $secondary-color;
+      border-bottom: 1px solid $primary-color;
+    }
+
+    form input[type="submit"]
+    {
+      @include set_bg_text_color($main-color)
+    }
+  }
+}
+
